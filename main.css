@@ -1,0 +1,40 @@
+header, body, html {
+    background-color: #03A9F4;
+    overflow: hidden;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align:center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#slider {
+    width: 100%;
+    height: 150px;
+}
+
+#number {
+   border: 5px solid #f44283;
+}
